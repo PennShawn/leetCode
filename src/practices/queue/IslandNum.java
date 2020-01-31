@@ -157,6 +157,9 @@ public class IslandNum {
     public int numIslands3(char[][] grid) {
         int num = 0;
         int l1 = grid.length;
+        if (l1 == 0) {
+            return 0;
+        }
         int l2 = grid[0].length;
         for (int i = 0; i < l1; i++) {
             for (int j = 0; j < l2; j++) {
