@@ -1,4 +1,4 @@
-package practices.queue;
+package practices.stack;
 
 import java.util.ArrayList;
 import java.util.List;
