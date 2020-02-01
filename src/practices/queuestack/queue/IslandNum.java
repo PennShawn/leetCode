@@ -1,4 +1,4 @@
-package practices.queue;
+package practices.queuestack.queue;
 
 import java.util.HashSet;
 import java.util.LinkedList;
