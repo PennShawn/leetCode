@@ -44,11 +44,10 @@ public class ReverseList {
     }
 
     public ListNode reverse(ListNode head) {
-        System.out.println(head.val);
         if (head.next.next == null) {
             root = head.next;
         } else {
-            reverseList(head.next);
+            reverse(head.next);
         }
         head.next.next = head;
 
