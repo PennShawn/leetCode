@@ -1,4 +1,4 @@
-package main.niuke;
+package main.newcoder;
 
 import java.util.Scanner;
 
